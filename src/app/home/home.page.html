@@ -1,3 +1,5 @@
+
+
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
@@ -7,14 +9,29 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <h1> <img src="../../assets/primera.jpg" alt="" width="150px" height="200px"></h1>
+    </ion-slide>
+    <ion-slide>
+      <h1> <img src="../../assets/segunda.jpg" alt="" width="150px" height="200px"></h1>
+    </ion-slide>
+    <ion-slide>
+      <h1> <img src="../../assets/tercera.jpg" alt="" width="150px" height="200px"></h1>
+    </ion-slide>
+  </ion-slides>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <h2>Historia Defensa Civil</h2>
+  <hr />
+  <p>Antes del año 1966, cuando llegaba la temporada de huracanes, un grupo de radioaficionados se reunía en la Cruz
+    Roja para estar atentos por si surgía algún tipo de emergencia, inmediatamente ponerse a disposición y ayudar en
+    todo lo posible, inclusive, usando sus propios equipos de comunicación para así tener contacto con el exterior en
+    caso de que las redes telefónicas resultaran afectadas.
+  </p>
+  <br>
+  <p>Al surgir el triunvirato fue designado el Dr. Rafael Cantizano Arias, como presidente de la Cruz Roja y al mismo
+    tiempo nombraron al Ing. Carlos D´ Franco como director de la Defensa Civil, quien con un grupo compuesto por seis
+    personas, se instaló en la calle Francia esquina Galván, siendo esa la primera oficina de la Defensa Civil.</p>
+
+
 </ion-content>
